@@ -1,0 +1,27 @@
+# Build output
+build/
+dist/
+
+# Scratch / debug files left by builds or testing
+buildsources.txt
+sources*.txt
+tests.txt
+build/T*.class
+build/T*.java
+build/FullLive.*
+
+# Java chaos
+*.class
+hs_err_pid*
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
+
+# Never commit personal sign-ins (defence in depth: they live in ~/.bedwars-proxy)
+accounts.json
+auth.json
+*.cookies
